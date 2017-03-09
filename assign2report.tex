@@ -108,7 +108,7 @@ The next task is to plot time-domain plots graphing exact solutions $\overline{u
 
 \begin{figure}[h]
 \caption{Four time-domain plots for the given $h$ values for time $t$ against $u(t)$.}
-\includegraphics[scale=0.55]{t_ut_sub.jpg}
+\includegraphics[scale=0.8]{t_ut_sub.jpg}
 \centering
 \end{figure}
 
@@ -118,7 +118,7 @@ Next we can analyse the difference between the midpoint method approximation of 
 
 \begin{figure}[h]
 \caption{Four time-domain plots for the given $h$ values for time $t$ against $v(t)$}
-\includegraphics[scale=0.55]{t_vt_sub.jpg}
+\includegraphics[scale=0.8]{t_vt_sub.jpg}
 \centering
 \end{figure}
 
@@ -145,13 +145,13 @@ which, it is easy to notice is equal to $\boldsymbol{Ax}_{n+1}.$ We have therefo
 \subsubsection*{Implicit Euler method}
 \begin{figure}[h]
 \caption{Time-domain plots for time $t$ against $u(t)$}
-\includegraphics[scale=0.55]{back_euler_u.jpg}
+\includegraphics[scale=0.8]{back_euler_u.jpg}
 \centering
 \end{figure}
 The \textit{implicit Euler method} is used for stiff ODEs. Our ODEs are stiff \textit{and} linear, and so by expressing the ODEs as a matrix equation, one can implement the \textit{implicit Euler method} by iteratively solving the matrix equation for $\boldsymbol{x}_{n+1}$. I did this for the step-sizes used previously, which were $h=\{0.0025,0.005,0.01,0.02\}$.
 \begin{figure}[h]
 \caption{Time-domain plots for time $t$ against $v(t)$}
-\includegraphics[scale=0.55]{back_euler_v.jpg}
+\includegraphics[scale=0.8]{back_euler_v.jpg}
 \centering
 \end{figure}
 Figure 5 and Figure 6 show a small amount of error between the implicit Euler method approximations and the analytical solutions of $u(t)$ and $v(t)$ for our four values of $h$, but this is to be expected with all numerical approximations to a function. It is possible to reduce the error, and therefore increase the accuracy of numerical solutions by numerical methods by increasing the step-size $h$, as shown for $h=0.0025$ and $h=0.005$. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.12)  9 MAR 2017 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.12)  9 MAR 2017 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,17 +380,17 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<1a_time-dom.jpg, id=1, 803.0pt x 602.25pt>
+<1a_time-dom.jpg, id=1, 433.62pt x 289.08pt>
 File: 1a_time-dom.jpg Graphic file (type jpg)
  <use 1a_time-dom.jpg>
 Package pdftex.def Info: 1a_time-dom.jpg used on input line 60.
-(pdftex.def)             Requested size: 361.34666pt x 271.01pt.
+(pdftex.def)             Requested size: 195.1272pt x 130.0848pt.
 
-<2a_phaseplot.jpg, id=2, 803.0pt x 602.25pt>
+<2a_phaseplot.jpg, id=2, 433.62pt x 289.08pt>
 File: 2a_phaseplot.jpg Graphic file (type jpg)
  <use 2a_phaseplot.jpg>
 Package pdftex.def Info: 2a_phaseplot.jpg used on input line 64.
-(pdftex.def)             Requested size: 361.34666pt x 271.01pt.
+(pdftex.def)             Requested size: 195.1272pt x 130.0848pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -398,64 +398,57 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<error.jpg, id=20, 803.0pt x 602.25pt>
+<error.jpg, id=20, 433.62pt x 289.08pt>
 File: error.jpg Graphic file (type jpg)
  <use error.jpg>
 Package pdftex.def Info: error.jpg used on input line 76.
-(pdftex.def)             Requested size: 481.80373pt x 361.35278pt.
-
-Overfull \hbox (28.83583pt too wide) in paragraph at lines 76--78
- [][] 
- []
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] <t_ut_sub.jpg, id=25, 803.0pt x 602.25pt>
+[2 <./1a_time-dom.jpg> <./2a_phaseplot.jpg>]
+<t_ut_sub.jpg, id=26, 433.62pt x 289.08pt>
 File: t_ut_sub.jpg Graphic file (type jpg)
  <use t_ut_sub.jpg>
 Package pdftex.def Info: t_ut_sub.jpg used on input line 111.
-(pdftex.def)             Requested size: 441.65137pt x 331.23851pt.
+(pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<t_vt_sub.jpg, id=26, 803.0pt x 602.25pt>
+[3 <./error.jpg>] <t_vt_sub.jpg, id=30, 433.62pt x 289.08pt>
 File: t_vt_sub.jpg Graphic file (type jpg)
- <use t_vt_sub.jpg>
+
+<use t_vt_sub.jpg>
 Package pdftex.def Info: t_vt_sub.jpg used on input line 121.
-(pdftex.def)             Requested size: 441.65137pt x 331.23851pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3] <back_euler_u.jpg, id=31, 803.0pt x 602.25pt>
+(pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
+ [4 <./t_ut_sub.jpg> <./t_vt_sub.jpg>]
+<back_euler_u.jpg, id=34, 433.62pt x 289.08pt>
 File: back_euler_u.jpg Graphic file (type jpg)
  <use back_euler_u.jpg>
 Package pdftex.def Info: back_euler_u.jpg used on input line 148.
-(pdftex.def)             Requested size: 441.65137pt x 331.23851pt.
+(pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<back_euler_v.jpg, id=32, 803.0pt x 602.25pt>
+<back_euler_v.jpg, id=35, 433.62pt x 289.08pt>
 File: back_euler_v.jpg Graphic file (type jpg)
  <use back_euler_v.jpg>
 Package pdftex.def Info: back_euler_v.jpg used on input line 154.
-(pdftex.def)             Requested size: 441.65137pt x 331.23851pt.
+(pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5] [6 <./1a_time-dom.jpg> <./2a_phaseplot.jpg>] [7 <./error.jpg>] [8 <./t_
-ut_sub.jpg> <./t_vt_sub.jpg>] [9 <./back_euler_u.jpg> <./back_euler_v.jpg>]
-[10
+[5] [6 <./back_euler_u.jpg>] [7 <./back_euler_v.jpg>] [8
 
 ] (./assign2report.aux) ) 
 Here is how much of TeX's memory you used:
  5838 strings out of 493014
  87302 string characters out of 6133350
- 182658 words of memory out of 5000000
+ 181658 words of memory out of 5000000
  9272 multiletter control sequences out of 15000+600000
  14459 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -476,10 +469,10 @@ r9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb>
-Output written on assign2report.pdf (10 pages, 653473 bytes).
+Output written on assign2report.pdf (8 pages, 394620 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
